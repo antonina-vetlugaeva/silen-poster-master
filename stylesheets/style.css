@@ -74,17 +74,24 @@ main img {
   display: flex;
 
   margin-top: 530px;
-  margin-left: 84px;
+  margin-left: 51px;
 
 }
 
-a {
+.button a {
+  padding: 24px;
+
+  transition: all  ease-in-out;
+  text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
 
   color: #000;
+  background-color: rgba(255, 255, 255, 0.6);
 
   font-family: 'ArtegraSansExtendedSC-Medium';
   font-size: 16pt;
+  font-variant: small-caps;
 }
 
 footer {
@@ -92,7 +99,7 @@ footer {
   flex-direction: row;
 
   height: 43px;
-  margin-top: 677px;
+  margin-top: 757px;
   padding-left: 148px;
 
   align-items: center;
@@ -160,18 +167,24 @@ footer {
     display: flex;
 
     margin-top: 1232px;
-    margin-left: 304px;
+    margin-left: 264px;
   }
 
-  a {
+
+  .button a {
+    padding: 50px 33px 50px;
+
+    transition: all .2s ease-in-out;
     text-decoration: none;
+    text-transform: uppercase;
 
     color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
 
     font-family: 'ArtegraSansExtendedSC-Medium';
-    font-size: 36pt;
+    font-size: 28pt;
+    font-variant: small-caps;
   }
-
 
 
   footer {
@@ -250,20 +263,22 @@ footer {
     display: flex;
 
     margin-top: 885px;
-    margin-left: 510px;
+    margin-left: 437px;
 
   }
 
   .button a {
     padding: 50px 33px 50px;
 
+    transition: all .2s ease-in-out;
     text-decoration: none;
+    text-transform: uppercase;
 
     color: #000;
-    border: 1px  #000 solid;
+    background-color: rgba(255, 255, 255, 0.6);
 
     font-family: 'ArtegraSansExtendedSC-Medium';
-    font-size: 36pt;
+    font-size: 32pt;
     font-variant: small-caps;
   }
 
