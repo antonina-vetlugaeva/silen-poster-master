@@ -1,0 +1,297 @@
+@import "reset.css";
+@import "fonts.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 100%;
+
+  background-color: #F6F6F6;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 23px;
+}
+
+header img {
+  width: 72px;
+  height: 18px;
+  padding-left: 23px;
+}
+
+header p {
+  width: 93px;
+  padding-left: 165px;
+
+  text-align: right;
+
+  font-family: 'ArtegraSansExtendedSC-Medium';
+  font-size: 10pt;
+}
+
+main {
+  flex-direction: column;
+}
+
+
+
+main img {
+  position: absolute;
+
+  width: 271px;
+  height: 275px;
+  margin-top: 129px;
+  padding-left: 103px;
+}
+
+.text {
+  position: absolute;
+  z-index: 99999;
+
+  width: 307px;
+  margin-top: 223px;
+  padding-left: 23px;
+
+  font-family: 'Gill Sans';
+  font-size: 17pt;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+.button {
+  position: absolute;
+
+  display: flex;
+
+  margin-top: 530px;
+  margin-left: 84px;
+
+}
+
+a {
+  text-decoration: none;
+
+  color: #000;
+
+  font-family: 'ArtegraSansExtendedSC-Medium';
+  font-size: 16pt;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+
+  height: 43px;
+  margin-top: 677px;
+  padding-left: 148px;
+
+  align-items: center;
+}
+
+.vk {
+  width: 35px;
+  height: 20px;
+  padding-right: 24px;
+}
+
+.inst {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+  header img {
+    width: 185px;
+    height: 44px;
+    padding-top: 32px;
+    padding-left: 32px;
+  }
+
+  header p {
+    width: 150px;
+    padding-top: 32px;
+    padding-left: 630px;
+
+    text-align: right;
+
+    font-family: 'ArtegraSansExtendedSC-Medium';
+    font-size: 20pt;
+  }
+
+  main img {
+    position: absolute;
+
+    width: 685px;
+    height: 694px;
+    margin-top: 336px;
+    padding-left: 287px;
+  }
+
+  .text {
+    position: absolute;
+    z-index: 999999;
+
+    width: 819px;
+    margin-top: 615px;
+    padding-left: 32px;
+
+    font-family: 'Gill Sans';
+    font-size: 27pt;
+    font-weight: 600;
+    font-variant: small-caps;
+  }
+
+  .button {
+    position: absolute;
+
+    display: flex;
+
+    margin-top: 1232px;
+    margin-left: 304px;
+  }
+
+  a {
+    text-decoration: none;
+
+    color: #000;
+
+    font-family: 'ArtegraSansExtendedSC-Medium';
+    font-size: 36pt;
+  }
+
+
+
+  footer {
+    display: flex;
+    flex-direction: row;
+
+    height: 90px;
+    margin-top: 1614px;
+    padding-left: 32px;
+
+    align-items: flex-start;
+  }
+
+  .vk {
+    width: 52px;
+    height: 30px;
+    padding-bottom: 76px;
+  }
+
+  .inst {
+    width: 44px;
+    height: 44px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+  }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+  header img {
+    width: 192px;
+    height: 48px;
+    padding-top: 38px;
+    padding-left: 38px;
+  }
+
+  header p {
+    width: 157px;
+    padding-top: 38px;
+    padding-left: 999px;
+
+    text-align: right;
+
+    font-family: 'ArtegraSansExtendedSC-Medium';
+    font-size: 20pt;
+  }
+
+  main img {
+    position: absolute;
+
+    width: 652px;
+    height: 661px;
+    margin-top: 103px;
+    padding-left: 713px;
+  }
+
+  .text {
+    position: absolute;
+    z-index: 999999;
+
+    width: 1127px;
+    margin-top: 316px;
+    padding-left: 75px;
+
+    font-family: 'Gill Sans';
+    font-size: 36pt;
+    font-weight: 600;
+    font-variant: small-caps;
+  }
+
+  .button {
+    position: absolute;
+
+    display: flex;
+
+    margin-top: 885px;
+    margin-left: 510px;
+
+    justify-content: center;
+
+  }
+
+  .button a {
+    padding: 50px 33px 50px;
+
+    text-decoration: none;
+
+    color: #000;
+    border: 1px  #000 solid;
+
+    font-family: 'ArtegraSansExtendedSC-Medium';
+    font-size: 36pt;
+    font-variant: small-caps;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+
+    height: 93px;
+    margin-top: 1241px;
+    padding-left: 38px;
+
+    align-items: flex-start;
+  }
+
+  .vk {
+    width: 52px;
+    height: 44px;
+    padding-bottom: 69px;
+  }
+
+  .inst {
+    width: 44px;
+    height: 44px;
+    padding-bottom: 38px;
+    padding-left: 10px;
+  }
+
+
+}

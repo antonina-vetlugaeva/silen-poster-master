@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "GillSans";
+
+  src: url("fonts/GillSans.ttf") format("typeface");
+}
+
+@font-face {
+  font-family: "Artegra Sans Extended SC";
+
+  src: url("fonts/ArtegraSansExtendedSC-Medium.otf") format("opentype");
+}
