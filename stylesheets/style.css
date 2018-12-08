@@ -87,12 +87,18 @@ main img {
   text-transform: uppercase;
 
   color: #000;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.8);
 
   font-family: 'ArtegraSansExtendedSC-Medium';
   font-size: 16pt;
   font-variant: small-caps;
 }
+
+.button a:hover{
+  color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
 
 footer {
   display: flex;
@@ -179,11 +185,16 @@ footer {
     text-transform: uppercase;
 
     color: #000;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
 
     font-family: 'ArtegraSansExtendedSC-Medium';
     font-size: 28pt;
     font-variant: small-caps;
+  }
+
+  .button a:hover{
+    color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
   }
 
 
@@ -275,11 +286,16 @@ footer {
     text-transform: uppercase;
 
     color: #000;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
 
     font-family: 'ArtegraSansExtendedSC-Medium';
     font-size: 32pt;
     font-variant: small-caps;
+  }
+
+  .button a:hover{
+    color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
   }
 
   footer {
