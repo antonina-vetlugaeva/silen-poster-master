@@ -40,7 +40,7 @@ header p {
 
   color: #fff;
 
-  font-family: 'ArtegraSansExtendedSC-Medium';
+  font-family: 'Artegra Sans Extended SC';
   font-size: 10pt;
 }
 
@@ -339,7 +339,7 @@ span:nth-of-type(26) {
 
     text-align: right;
 
-    font-family: 'ArtegraSansExtendedSC-Medium';
+    font-family: 'Artegra Sans Extended SC';
     font-size: 20pt;
   }
 
@@ -386,7 +386,7 @@ span:nth-of-type(26) {
     color: #000;
     background-color: rgba(255, 255, 255, 0.8);
 
-    font-family: 'ArtegraSansExtendedSC-Medium';
+    font-family: 'Artegra Sans Extended SC';
     font-size: 28pt;
     font-variant: small-caps;
   }
