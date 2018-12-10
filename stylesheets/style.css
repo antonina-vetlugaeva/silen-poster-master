@@ -88,13 +88,13 @@ span:hover{
   flex-direction: column;
 
   height: 517px;
-  margin-top: 600px;
+  margin-top: 550px;
 }
 
 .about img {
   width: 180px;
   height: 270px;
-  padding-top: 73px;
+  padding-top: 103px;
   padding-left: 118px;
   order: 2;
 }
@@ -131,7 +131,7 @@ span:hover{
 
   display: flex;
 
-  padding-top: 1180px;
+  padding-top: 1190px;
   margin-left: 61px;
 
 }
