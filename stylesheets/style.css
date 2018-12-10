@@ -241,7 +241,7 @@ footer {
     display: flex;
     flex-direction: row;
 
-    height: 521px;
+    height: 52px;
     margin-top: 1137px;
   }
 
@@ -256,7 +256,7 @@ footer {
     order: 2;
     height: 230px;
     padding: 42px 40px;
-    margin-top: 275px;
+    margin-top: 245px;
 
     color: #fff;
     background-color: rgba(98, 101, 157, 0.8);
@@ -274,9 +274,8 @@ footer {
   }
 
   .about a {
-    font-size: 36pt;
+    font-size: 32pt;
     text-decoration: none;
-    color: inherit;
     color: #1A1F68;
   }
 
@@ -399,20 +398,19 @@ footer {
     flex-direction: row;
 
     height: 521px;
-    margin-top: 1137px;
+    margin-top: 907px;
   }
 
   .about img {
-    width: 347px;
-    height: 521px;
-    padding-left: 32px;
+    width: 527px;
+    height: 792px;
+    padding-left: 75px;
     order: 1;
   }
 
   .description {
     order: 2;
-    height: 230px;
-    padding: 42px 40px;
+    padding: 41px 66px;
     margin-top: 275px;
 
     color: #fff;
@@ -423,11 +421,17 @@ footer {
   }
 
   .about p {
-    font-size: 24pt;
+    font-size: 34px;
   }
 
   .about p:nth-child(3){
-    padding-bottom: 38px;
+    padding-bottom: 62px;
+  }
+
+  .about a {
+    font-size: 40pt;
+    text-decoration: none;
+    color: #1A1F68;
   }
 
   .button {
@@ -465,7 +469,7 @@ footer {
     flex-direction: row;
 
     height: 93px;
-    margin-top: 1241px;
+    margin-top: 2541px;
     padding-left: 38px;
 
     align-items: flex-start;
