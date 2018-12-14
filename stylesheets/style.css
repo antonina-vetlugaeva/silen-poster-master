@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "fonts.css";
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -34,7 +35,7 @@ header img {
 
 header p {
   width: 93px;
-  padding-left: 230px;
+  padding-left: 210px;
 
   text-align: right;
 
@@ -48,25 +49,29 @@ main {
   flex-direction: column;
 }
 
-main img {
+.circle {
   position: absolute;
 
   width: 271px;
   height: 275px;
   margin-top: 129px;
-  padding-left: 103px;
+  margin-left: 103px;
+  background: #fff;
+  border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 40px 20px rgba(82, 85, 136, 80);
 }
 
 .text {
   position: absolute;
   z-index: 99999;
 
-  width: 387px;
+  width: 380px;
   margin-top: 223px;
   padding-left: 23px;
 
   font-family: 'Gill Sans';
-  font-size: 17pt;
+  font-size: 12pt;
   font-weight: 600;
   font-variant: small-caps;
 }
@@ -163,7 +168,7 @@ footer {
   flex-direction: row;
 
   height: 43px;
-  margin-top: 1400px;
+  margin-top: 1300px;
   padding-left: 148px;
 
   align-items: center;
@@ -202,13 +207,17 @@ footer {
     font-size: 20pt;
   }
 
-  main img {
+  .circle {
     position: absolute;
 
     width: 685px;
     height: 694px;
     margin-top: 336px;
-    padding-left: 287px;
+    margin-left: 287px;
+    background: #fff;
+    border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 40px 20px rgba(82, 85, 136, 80);
   }
 
   .text {
@@ -358,13 +367,16 @@ footer {
     font-size: 20pt;
   }
 
-  main img {
+.circle {
     position: absolute;
-
-    width: 652px;
-    height: 661px;
+    z-index: 8888;
+    width: 703px;
+    height: 697px;
     margin-top: 103px;
-    padding-left: 713px;
+    margin-left: 668px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 40px 20px rgba(82, 85, 136, 80);
   }
 
   .text {
@@ -376,7 +388,7 @@ footer {
     padding-left: 75px;
 
     font-family: 'Gill Sans';
-    font-size: 36pt;
+    font-size: 34pt;
     font-weight: 600;
     font-variant: small-caps;
   }
@@ -416,12 +428,15 @@ footer {
     color: #fff;
     background-color: rgba(98, 101, 157, 0.8);
 
-    font-family: 'Lato';
-    font-weight: bold;
+    font-family: 'Artegra Sans Extended SC';
+
+
   }
 
   .about p {
     font-size: 34px;
+    font-style: normal;
+    text-align: left;
   }
 
   .about p:nth-child(3){
@@ -432,6 +447,14 @@ footer {
     font-size: 40pt;
     text-decoration: none;
     color: #1A1F68;
+    text-align: left;
+    font-style: normal;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-align: right;
+    font-style: italic;
   }
 
   .button {
@@ -470,15 +493,15 @@ footer {
 
     height: 93px;
     margin-top: 2541px;
-    padding-left: 38px;
+    padding-left: 45%;
 
     align-items: flex-start;
   }
 
   .vk {
-    width: 52px;
-    height: 44px;
-    padding-bottom: 69px;
+    width: 56px;
+    height: 48px;
+    padding-bottom: 38px;
   }
 
   .inst {
