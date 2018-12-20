@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "Gill Sans";
+  font-family: "BrygadaRegular";
 
-  src: url("../fonts/GillSans.woff") format("woff");
+  src: url("../fonts/BrygadaRegular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Artegra Sans Extended SC";
+  font-family: "BrygadaItalic";
 
-  src: url("../fonts/ArtegraSansExtendedSC.woff") format("woff");
+  src: url("../fonts/BrygadaItalic.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Neucha";
+  font-family: "Madelyn";
 
-  src: url("../fonts/Neucha.woff") format("woff");
+  src: url("../fonts/Madelyn.woff") format("otf");
 }
