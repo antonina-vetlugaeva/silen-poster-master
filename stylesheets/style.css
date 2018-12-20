@@ -143,7 +143,7 @@ span:hover{
   z-index: 99999;
 
   width: 17em;
-  height: 23em;
+  height: 25em;
   margin-top: -4em;
   padding-left: 30%;
 
@@ -249,14 +249,10 @@ span:hover{
   height: 8.75em;
 }
 
-
-.box-box3 {
-  padding-top: 4em;
-  padding-right: 3em;
-}
-
 .box-box3 img {
   width: 11em;
+  padding-top: 4em;
+  padding-right: 3em;
 }
 
 
@@ -354,10 +350,10 @@ footer {
   }
 
   .about img {
-    width: 24.8em;
-    height: 42.1em;
+    width: 30.8em;
+    height: 45.6em;
     margin-top: -8em;
-    padding-left: 40%;
+    padding-left: 32%;
 
     order: 2;
   }
@@ -780,7 +776,7 @@ footer {
 
     width: 50em;
     padding-top: 20em;
-    padding-left: 28%;
+    padding-left: 27%;
 
     justify-content: center;
   }
@@ -818,7 +814,7 @@ footer {
   footer {
     margin-bottom: 2em;
     padding-top: 30em;
-    padding-left: 2em;
+
   }
 
   .vk {
