@@ -52,7 +52,6 @@ header p {
 
   font-family: 'BrygadaRegular';
   font-size: 0.917em;
-
 }
 
 main {
@@ -73,11 +72,9 @@ main {
   border-radius: 50%;
   background: #fff;
   box-shadow: 0 0 2.5em 1.3em rgba(82, 85, 136, 80);
-  }
+}
 
-
-
-  @-webkit-keyframes pulse {
+@-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 2.5em 1.3em rgba(82, 85, 136, 80);
   }
@@ -87,8 +84,9 @@ main {
   100% {
       -webkit-box-shadow: 0 0 2.5em 1.3em rgba(82, 85, 136, 80);
   }
-  }
-  @keyframes pulse {
+}
+
+@keyframes pulse {
   0% {
     -moz-box-shadow: 0 0 2.5em 1.3em rgba(82, 85, 136, 80);
     box-shadow: 0 0 2.5em 1.3em rgba(82, 85, 136, 80);
@@ -102,7 +100,6 @@ main {
       box-shadow: 0 0 2.5em 1.3em rgba(82, 85, 136, 80);
   }
 }
-
 
 .text {
   position: absolute;
@@ -126,7 +123,6 @@ span {
 span:hover{
   color: #fff;
 }
-
 
 .about {
   position: absolute;
@@ -182,13 +178,12 @@ span:hover{
   font-size: 1.5em;
 }
 
-
 .button {
   display: flex;
   flex-direction: row;
 
   padding-top: 80.1em;
-  padding-left: 15vw;
+  padding-left: 1vw;
 
   justify-content: center;
   align-items: center;
@@ -215,7 +210,6 @@ span:hover{
   background-color: rgba(98, 101, 157, 0.6);
 }
 
-
 .promo {
   display: flex;
   flex-direction: row;
@@ -239,22 +233,21 @@ span:hover{
   font-size: 1em;
 }
 
-.box-box1 img {
+.box1 img {
   width: 6.13em;
   height: 8.75em;
 }
 
-.box-box2 img {
+.box2 img {
   width: inherit;
   height: 8.75em;
 }
 
-.box-box3 img {
+.box3 img {
   width: 11em;
   padding-top: 4em;
   padding-right: 3em;
 }
-
 
 footer {
   display: flex;
@@ -266,7 +259,6 @@ footer {
 
   justify-content: center;
   align-items: center;
-
 }
 
 .vk {
@@ -306,10 +298,10 @@ footer {
     animation: pulse 3s infinite;
 
     box-shadow: 0 0 3.5em 3.3em rgba(82, 85, 136, 80);
-    }
+  }
 
 
-    @-webkit-keyframes pulse {
+  @-webkit-keyframes pulse {
     0% {
       -webkit-box-shadow: 0 0 3.5em 2.3em rgba(82, 85, 136, 80);
     }
@@ -319,8 +311,8 @@ footer {
     100% {
         -webkit-box-shadow: 0 0 3.5em 2.3em rgba(82, 85, 136, 80);
     }
-    }
-    @keyframes pulse {
+  }
+  @keyframes pulse {
     0% {
       -moz-box-shadow: 0 0 3.5em 2.3em rgba(82, 85, 136, 80);
       box-shadow: 0 0 3.5em 2.3em rgba(82, 85, 136, 80);
@@ -335,14 +327,12 @@ footer {
     }
   }
 
-
   .text {
     margin-top: 8.9em;
     padding-left: 5%;
 
     font-size: 3em;
   }
-
 
   .about {
     height: 42em;
@@ -375,7 +365,6 @@ footer {
     font-size: 1.5em;
   }
 
-
   .button {
     padding-top: 148em;
     padding-left: 1%;
@@ -386,7 +375,6 @@ footer {
 
     font-size: 2.3em;
   }
-
 
   .promo {
     width: 30em;
@@ -404,26 +392,25 @@ footer {
     line-height: 1.8em;
   }
 
-  .box-box1 img {
+  .box1 img {
     width: 9.06em;
     height: 14.8em;
   }
 
-  .box-box2 img {
+  .box2 img {
     width: inherit;
     height: 14.8em;
     padding-left: 3em;
   }
 
-  .box-box3 {
+  .box3 {
     padding-top: 10em;
     padding-left: 5em;
   }
 
-  .box-box3 img {
+  .box3 img {
     width: 17em;
   }
-
 
   footer {
     margin-bottom: 1.75em;
@@ -441,207 +428,198 @@ footer {
     width: 2.3em;
     height: 2.3em;
   }
-}
 
+}
 
 
 @media screen and (min-width: 1024px) {
 
-
   header img {
-      width: 12rem;
-      height: 3rem;
-      padding-top: 2rem;
-      padding-left: 2rem;
+    width: 12rem;
+    height: 3rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+
+  header p {
+    width: 9.38rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+
+    text-align: right;
+
+    font-family: 'BrygadaRegular';
+    font-size: 1.67rem;
+  }
+
+  .circle {
+    position: absolute;
+
+    width: 32.8em;
+    height: 33.4em;
+    margin-top: 21rem;
+    margin-left: 42%;
+
+    animation: pulse 4s infinite;
+
+    border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
     }
-
-    header p {
-      width: 9.38rem;
-      padding-top: 2rem;
-      padding-right: 2rem;
-
-      text-align: right;
-
-      font-family: 'BrygadaRegular';
-      font-size: 1.67rem;
+    50% {
+        -webkit-box-shadow: 0 0 2.5rem 2.19rem rgba(82, 85, 136, 80);
     }
-
-    .circle {
-      position: absolute;
-
-      width: 32.8em;
-      height: 33.4em;
-      margin-top: 21rem;
-      margin-left: 42%;
-
-      animation: pulse 4s infinite;
-
-      border-radius: 50%;
-      border-radius: 50%;
-      background: #fff;
+    100% {
+        -webkit-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
       box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
     }
-
-
-
-    @-webkit-keyframes pulse {
-      0% {
-        -webkit-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
-      }
-      50% {
-          -webkit-box-shadow: 0 0 2.5rem 2.19rem rgba(82, 85, 136, 80);
-      }
-      100% {
-          -webkit-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
-      }
+    50% {
+        -moz-box-shadow: 0 0 2.5rem 2.19rem rgba(82, 85, 136, 80);
+        box-shadow: 0 0 2.5rem 2.19rem rgba(82, 85, 136, 80);
     }
-    @keyframes pulse {
-      0% {
+    100% {
         -moz-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
         box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
-      }
-      50% {
-          -moz-box-shadow: 0 0 2.5rem 2.19rem rgba(82, 85, 136, 80);
-          box-shadow: 0 0 2.5rem 2.19rem rgba(82, 85, 136, 80);
-      }
-      100% {
-          -moz-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
-          box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
-      }
-    }
-
-    .text {
-      position: absolute;
-      z-index: 999999;
-
-      width: 51.2rem;
-      margin-top: 31.4rem;
-      padding-left: 10%;
-
-      font-family: 'Madelyn';
-      font-size: 3.25rem;
-    }
-
-    span {
-      transition: all  ease-in-out;
-      transition-duration: 0.5s;
-      text-align: center;
-    }
-
-    span:hover{
-      color: #fff;
-    }
-
-    .about {
-      position: absolute;
-
-      display: flex;
-      flex-direction: row;
-
-      height: 3.25rem;
-      padding-top: 21rem;
-    }
-
-    .about img {
-      width: 21.7em;
-      height: 32.6em;
-      padding-left: 3rem;
-
-      order: 1;
-    }
-
-    .description {
-      padding: 2rem 2rem 18rem;
-
-      font-size: 1.7rem;
-      line-height: 2.6rem;
-
-      order: 2;
-    }
-
-
-    .about p {
-      font-size: 1em;
-    }
-
-    .about a {
-      font-size: 1.5em;
-    }
-
-
-    .button {
-      display: flex;
-
-      padding-top: 134em;
-      padding-right: 1%;
-
-      justify-content: center;
-    }
-
-    .button a {
-      padding: 1.5em;
-
-      font-size: 2.3em;
-    }
-
-
-    .promo {
-      display: flex;
-
-      width: 80%;
-      padding-top: 20em;
-      padding-left: 17%;
-
-      justify-content: center;
-    }
-
-    .promo p {
-      width: 10.13em;
-      padding-top: 2em;
-
-      font-size: 2em;
-    }
-
-    .box-box1 img {
-      width: 10.06em;
-      height: 16.8em;
-
-    }
-
-    .box-box2 img {
-      width: inherit;
-      height: 16.8em;
-      padding-left: 2em;
-    }
-
-    .box-box3 {
-      padding-top: 13em;
-      padding-right: 11em;
-    }
-
-    .box-box3 img {
-      width: 19em;
-    }
-
-
-    footer {
-      margin-bottom: 2em;
-      padding-top: 30em;
-
-    }
-
-    .vk {
-      width: 4.2em;
-      height: 4.2em;
-      padding-right: 3.5em;
-    }
-
-    .inst {
-      width: 3.3em;
-      height: 3.3em;
     }
   }
 
+  .text {
+    position: absolute;
+    z-index: 999999;
+
+    width: 51.2rem;
+    margin-top: 31.4rem;
+    padding-left: 10%;
+
+    font-family: 'Madelyn';
+    font-size: 3.25rem;
+  }
+
+  span {
+    transition: all  ease-in-out;
+    transition-duration: 0.5s;
+    text-align: center;
+  }
+
+  span:hover{
+    color: #fff;
+  }
+
+  .about {
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+
+    height: 3.25rem;
+    padding-top: 21rem;
+  }
+
+  .about img {
+    width: 21.7em;
+    height: 32.6em;
+    padding-left: 3rem;
+
+    order: 1;
+  }
+
+  .description {
+    padding: 2rem 2rem 18rem;
+
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+
+    order: 2;
+  }
+
+  .about p {
+    font-size: 1em;
+  }
+
+  .about a {
+    font-size: 1.5em;
+  }
+
+  .button {
+    display: flex;
+
+    padding-top: 134em;
+    padding-right: 1%;
+
+    justify-content: center;
+  }
+
+  .button a {
+    padding: 1.5em;
+
+    font-size: 2.3em;
+  }
+
+  .promo {
+    display: flex;
+
+    width: 80%;
+    padding-top: 20em;
+    padding-left: 17%;
+
+    justify-content: center;
+  }
+
+  .promo p {
+    width: 10.13em;
+    padding-top: 2em;
+
+    font-size: 2em;
+  }
+
+  .box1 img {
+    width: 10.06em;
+    height: 16.8em;
+  }
+
+  .box2 img {
+    width: inherit;
+    height: 16.8em;
+    padding-left: 2em;
+  }
+
+  .box3 {
+    padding-top: 13em;
+    padding-right: 11em;
+  }
+
+  .box3 img {
+    width: 19em;
+  }
+
+  footer {
+    margin-bottom: 2em;
+    padding-top: 30em;
+  }
+
+  .vk {
+    width: 4.2em;
+    height: 4.2em;
+    padding-right: 3.5em;
+  }
+
+  .inst {
+    width: 3.3em;
+    height: 3.3em;
+  }
+
+}
 
 
 @media screen and (min-width: 1440px) {
@@ -680,8 +658,6 @@ footer {
     box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
   }
 
-
-
   @-webkit-keyframes pulse {
     0% {
       -webkit-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
@@ -693,6 +669,7 @@ footer {
         -webkit-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
     }
   }
+
   @keyframes pulse {
     0% {
       -moz-box-shadow: 0 0 2.5rem 1.25rem rgba(82, 85, 136, 80);
@@ -716,7 +693,6 @@ footer {
     font-family: 'Madelyn';
     font-size: 5rem;
   }
-
 
   .about {
     position: absolute;
@@ -745,7 +721,6 @@ footer {
     order: 2;
   }
 
-
   .about p {
     font-size: 1em;
   }
@@ -753,7 +728,6 @@ footer {
   .about a {
     font-size: 1.5em;
   }
-
 
   .button {
     display: flex;
@@ -769,7 +743,6 @@ footer {
 
     font-size: 2.2em;
   }
-
 
   .promo {
     display: flex;
@@ -789,32 +762,30 @@ footer {
     line-height: 1.5em;
   }
 
-  .box-box1 img {
+  .box1 img {
     width: 10.06em;
     height: 16.8em;
 
   }
 
-  .box-box2 img {
+  .box2 img {
     width: inherit;
     height: 16.8em;
     padding-left: 2em;
   }
 
-  .box-box3 {
+  .box3 {
     padding-top: 13em;
     padding-right: 11em;
   }
 
-  .box-box3 img {
+  .box3 img {
     width: 19em;
   }
-
 
   footer {
     margin-bottom: 2em;
     padding-top: 30em;
-
   }
 
   .vk {
