@@ -7,6 +7,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   overflow: scroll;
 
@@ -24,6 +28,7 @@ body {
 
 header {
   display: flex;
+  overflow: hidden;
   flex-direction: row;
 
   justify-content: space-between;
@@ -38,8 +43,8 @@ header img {
 
 header p {
   width: 5.8em;
-  margin-right: -1.4em;
   padding-top: 1.4em;
+  padding-right: 1.4em;
 
   text-align: right;
 
@@ -183,7 +188,7 @@ span:hover{
   flex-direction: row;
 
   padding-top: 80.1em;
-  padding-left: 15%;
+  padding-left: 15vw;
 
   justify-content: center;
   align-items: center;
@@ -215,9 +220,9 @@ span:hover{
   display: flex;
   flex-direction: row;
 
-  width: 16.5em;
+  width: 18.5em;
   padding-top: 10em;
-  padding-left: 26%;
+  padding-left: 20vw;
 
   justify-content: center;
   align-items: center;
@@ -261,7 +266,7 @@ footer {
 
   margin-bottom: 1.4em;
   padding-top: 15em;
-  padding-left: 10%;
+  padding-left: 1%;
 
   justify-content: center;
   align-items: center;
@@ -291,7 +296,7 @@ footer {
 
   header p {
     width: 7.38em;
-    margin-right: -1.75em;
+    padding-right: 1.4em;
 
     font-size: 1.5em;
   }
@@ -300,7 +305,7 @@ footer {
     width: 25.6em;
     height: 25.6em;
     margin-top: 21.1em;
-    margin-left: 50%;
+    margin-left: 40%;
 
     animation: pulse 3s infinite;
 
@@ -336,10 +341,10 @@ footer {
 
 
   .text {
-    margin-top: 7.9em;
+    margin-top: 8.9em;
     padding-left: 5%;
 
-    font-size: 3.3em;
+    font-size: 3em;
   }
 
 
@@ -352,7 +357,7 @@ footer {
     width: 24.8em;
     height: 42.1em;
     margin-top: -8em;
-    padding-left: 50%;
+    padding-left: 40%;
 
     order: 2;
   }
@@ -377,6 +382,7 @@ footer {
 
   .button {
     padding-top: 148em;
+    padding-left: 1%;
   }
 
   .button a {
@@ -389,7 +395,7 @@ footer {
   .promo {
     width: 30em;
     padding-top: 20em;
-    padding-left: 27%;
+    padding-left: 22%;
 
     justify-content: space-between;
   }
@@ -399,6 +405,7 @@ footer {
     padding-top: 2em;
 
     font-size: 1.4em;
+    line-height: 1.8em;
   }
 
   .box-box1 img {
@@ -425,7 +432,7 @@ footer {
   footer {
     margin-bottom: 1.75em;
     padding-top: 30em;
-
+    padding-left: 1%;
   }
 
   .vk {
@@ -469,7 +476,7 @@ footer {
       width: 32.8em;
       height: 33.4em;
       margin-top: 21rem;
-      margin-left: 45%;
+      margin-left: 42%;
 
       animation: pulse 4s infinite;
 
@@ -570,7 +577,7 @@ footer {
       display: flex;
 
       padding-top: 134em;
-      padding-right: 10%;
+      padding-right: 1%;
 
       justify-content: center;
     }
@@ -585,9 +592,9 @@ footer {
     .promo {
       display: flex;
 
-      width: 50em;
+      width: 80%;
       padding-top: 20em;
-      padding-left: 20%;
+      padding-left: 17%;
 
       justify-content: center;
     }
@@ -756,7 +763,7 @@ footer {
     display: flex;
 
     padding-top: 134em;
-    padding-right: 10%;
+    padding-right: 1%;
 
     justify-content: center;
   }
