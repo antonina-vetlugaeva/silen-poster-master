@@ -666,7 +666,7 @@ footer {
 
     width: 36.8em;
     height: 37.4em;
-    margin-top: 16rem;
+    margin-top: 8rem;
     margin-left: 55%;
 
     animation: pulse 4s infinite;
@@ -707,7 +707,7 @@ footer {
 
   .text {
     width: 75.2rem;
-    margin-top: 25.6rem;
+    margin-top: 17.6rem;
     padding-left: 9%;
 
     font-family: 'Madelyn';
@@ -722,7 +722,7 @@ footer {
     flex-direction: row;
 
     height: 3.25rem;
-    padding-top: 16rem;
+    padding-top: 13rem;
   }
 
   .about img {
@@ -783,6 +783,7 @@ footer {
     padding-top: 2em;
 
     font-size: 2em;
+    line-height: 1.5em;
   }
 
   .box-box1 img {
