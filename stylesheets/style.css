@@ -292,7 +292,7 @@ footer {
   .circle {
     width: 25.6em;
     height: 25.6em;
-    margin-top: 21.1em;
+    margin-top: 17.1em;
     margin-left: 40%;
 
     animation: pulse 3s infinite;
@@ -328,7 +328,7 @@ footer {
   }
 
   .text {
-    margin-top: 8.9em;
+    margin-top: 7.9em;
     padding-left: 5%;
 
     font-size: 3em;
@@ -554,7 +554,7 @@ footer {
   .button {
     display: flex;
 
-    padding-top: 134em;
+    padding-top: 124em;
     padding-right: 1%;
 
     justify-content: center;
@@ -775,7 +775,7 @@ footer {
   }
 
   .box3 {
-    padding-top: 13em;
+    padding-top: 9em;
     padding-right: 11em;
   }
 
